@@ -3,8 +3,8 @@ module.exports = {
   content: [
     './src/**/*.tsx',
   ],
-  theme: { 
-    fontSize: { //tokens de fonte
+  theme: {
+    fontSize: {
         xs: 14,
         sm: 16,
         md: 18,
@@ -12,11 +12,14 @@ module.exports = {
         xl: 24,
         '2xl': 32,
     },
-    colors:{ //tokens de cores
+    colors:{
         transparent: 'transparent',
       
         black: "#000",
         white: "#fff",
+      
+        'roxo': '#7229e6',
+        'roxo-claro': '#c099ff',
 
         gray: {
           900: '#121214',
@@ -29,11 +32,19 @@ module.exports = {
         cyan: {
           500: '#81D8F7',
           300: '#98E1F8'
-        }
+        },
+
+        
+        'green-checkbox': '#61B082'
+        
+
+
+        
+
     },
     extend: {
       fontFamily: {
-        sans: 'Inter, sans-serif'
+        sans: 'Quicksand, sans-serif'
       }
     },
   },

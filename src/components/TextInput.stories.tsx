@@ -7,6 +7,7 @@ export default{ //configurações globais para todas as variações
     component: TextInput.Root,
     args: {
         children: [
+            
             <TextInput.Icon>
                 <Envelope/>
             </TextInput.Icon>,
