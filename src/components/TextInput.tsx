@@ -50,8 +50,3 @@ export const TextInput = {
     Input: TextInputInput,
     Icon: TextInputIcon, 
 }
-
-
-
-
-
